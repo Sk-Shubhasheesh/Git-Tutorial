@@ -10,6 +10,26 @@ area is considered to be not in the staging area. When we do `git status` and we
 3. `Staging Area` -> It is tell to us what all files are going to be part of the next version 
 that we will create. This staging area is the place where git knows what changes will be done 
 from the last version to the next version.
-  git add <file> -> This command is used to move any file from working area to Staging area.
-  git rm --cached <file> -> This command is used to move any file from Staging area to Working area.   
+  
+4. `Repository area` -> This area actually contains the details of all your previous registered version.
+And the file in this area git alredy manages them and knows their version history.
 
+5. `git add <file>` -> This command is used to move any file from working area to Staging area.
+
+6. `git rm --cached <file>` -> This command is used to move any file from Staging area to Working area.
+
+Note - Now lest say you want to move a file from staging area to repository area that means you need to actually
+create a version and in git versions are actually managed using commits. You can say that commit is like one version,
+one git commit like on git version. 
+
+7 - `commit` -> Commit is a particular version of the project. It captures a snapshot of the projects staged changes and
+create a version out of it. You will say that whenever you crate the commit then you have actually registered a bunch of changes
+with git.
+
+8. `git commit` -> registers staging changes to a commit.
+
+9.`git log` -> list down all the commit of the repository.If you want to exit out of git log promt press `q`.
+ 
+10. `git restore <file>` -> It removes all the files changes from the staging area to be committed. This can be useful,
+if we did some dirty piece of code and now no more want it. Instead of deleting evey change line be line we can resotre or
+you can say restore last clean version of the file.
