@@ -39,4 +39,12 @@ this only works if changes are in your staging area.
 
 12 `Difference beetween git rm and git resotre ` ->  
 ans: if you want to move the whole file back to the untracked state, then we do git rm, otherwise if we just want the 
-changes to be moved in working area or staging area then we do git restore.  
+changes to be moved in working area or staging area then we do git restore.
+
+38a4d07ff6b48c606119cb10f7cdca338e23a88a 
+59691995ab3681c315a5b9352efc4e63eee82d65
+
+13 `git diff commit1 and commit2 ` -> gives the difference of all files changes between two commits.
+
+14 `git commit -m "<your commit message>" ` -> If we want to avoid opening a text editor like vim/nano to add commit we can use this following commond. 
+
