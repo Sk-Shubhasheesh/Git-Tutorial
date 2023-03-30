@@ -60,7 +60,7 @@ changes to be moved in working area or staging area then we do git restore.
 
 Note: The name of the remote connection is always used to establish communication between the repos  
 
-20. `git add <file1> <file2> <file3>`: This command will add multiple file changes together in the staging area
+20. `git add <file1> <file2> <file3>`: This command will add multiple file changes together in the staging area.
 
 21. `git add . ` -> This command will add all files from working repo to staging area.
 
